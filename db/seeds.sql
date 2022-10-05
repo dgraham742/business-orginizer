@@ -26,7 +26,18 @@ VALUES
   INSERT INTO department
   (Name)
   VALUES
-  ("Human resources"),
-  ("Programmer"),
-  ("Manager"),
-  ("Customer service ")
+  ("Sales"),
+  ("Engineering"),
+  ("finance"),
+  ("Legal")
+  
+  INSERT INTO role
+  (name, salary)
+  ("Sales Lead", 100000),
+  ("Salesperson", 80000),
+  ("Lead Engineer", 150000),
+  ("Software Engineer",120000),
+  ("Account Manager", 160000),
+  ("legal Team Lead", 250000),
+  ("Lawyer",190000);
+
